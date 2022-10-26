@@ -1,0 +1,27 @@
+textarea {
+    min-height: 400px;
+}
+* {
+    margin:12px;
+
+}
+
+#compose-body{
+    height: 220px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.element{
+    height:77px;
+    margin: 4px;
+    padding: 0;
+}
+
+.element > span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
